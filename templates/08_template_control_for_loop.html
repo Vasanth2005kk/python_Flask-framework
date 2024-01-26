@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>looping</title>
+</head>
+<body>
+    <h2>for loop :</h2>
+    <ul>
+        {% for i in subjcets%}
+        <li>{{i}}</li>
+        {% endfor %}
+    </ul>
+    <hr>
+    <h2>odd numbers</h2>
+    <ul>
+        {%for i in range(1,50,2)%}
+        <li>{{i}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
